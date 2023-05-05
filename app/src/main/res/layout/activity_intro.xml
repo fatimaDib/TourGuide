@@ -42,22 +42,5 @@
         android:backgroundTint="#1B72B8"
         android:text="Start By Signing In" />
 
-    <Button
-        android:id="@+id/signIn3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="29dp"
-        android:backgroundTint="#156977"
-        android:text="Start By Signing In" />
-
-    <Button
-        android:id="@+id/signIn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-15dp"
-        android:backgroundTint="#1B72B7"
-        android:text="Start By Signing In" />
   </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
