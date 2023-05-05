@@ -1,4 +1,4 @@
 # TourGuide
-web project
+Mobile project
 
 ##Code
