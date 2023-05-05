@@ -26,20 +26,29 @@
 
     </androidx.viewpager2.widget.ViewPager2>
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="423dp"
-        android:layout_height="69dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+  <RelativeLayout
+      android:id="@+id/relativeLayout"
+      android:layout_width="413dp"
+      android:layout_height="117dp"
+      android:layout_marginBottom="4dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
 
-      <Button
-          android:id="@+id/signIn1"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:backgroundTint="#1B72B8"
-          android:text="Start By Signing In" />
-    </RelativeLayout>
+    <Button
+        android:id="@+id/signIn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1B72B8"
+        android:text="Start By Signing In" />
+
+    <Button
+        android:id="@+id/signIn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-15dp"
+        android:backgroundTint="#1B72B8"
+        android:text="Start By Signing In" />
+  </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
