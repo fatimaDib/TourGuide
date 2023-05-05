@@ -1,4 +1,3 @@
 # TourGuide
 Mobile project
 
-##Code
