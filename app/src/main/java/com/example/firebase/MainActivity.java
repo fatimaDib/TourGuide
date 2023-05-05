@@ -53,12 +53,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // Write a message to the database
-        /*FirebaseDatabase database = FirebaseDatabase.getInstance();
+        /*// Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message3");
 
-        myRef.setValue("Hello, World 3!");*/
-
+        myRef.setValue("Hello, World 3!");
+*/
        /* // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
             @Override

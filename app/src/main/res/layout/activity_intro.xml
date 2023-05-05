@@ -15,21 +15,10 @@
         tools:layout_editor_absoluteY="-158dp" />
 -->
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-    >
-
-    </androidx.viewpager2.widget.ViewPager2>
-
   <RelativeLayout
       android:id="@+id/relativeLayout"
-      android:layout_width="413dp"
-      android:layout_height="117dp"
+      android:layout_width="414dp"
+      android:layout_height="118dp"
       android:layout_marginBottom="4dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -42,5 +31,37 @@
         android:backgroundTint="#1B72B8"
         android:text="Start By Signing In" />
 
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:drawableEnd="@drawable/next"
+        android:drawableRight="@drawable/next"
+        android:paddingBottom="30dp" />
+
+
   </RelativeLayout>
+
+  <androidx.viewpager.widget.ViewPager
+      android:id="@+id/slider"
+      android:layout_width="416dp"
+      android:layout_height="658dp"
+      app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+  </androidx.viewpager.widget.ViewPager>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
