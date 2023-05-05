@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="-15dp"
-        android:backgroundTint="#1B72B8"
+        android:backgroundTint="#1B72B7"
         android:text="Start By Signing In" />
   </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
