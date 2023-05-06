@@ -18,11 +18,11 @@ public class SliderAdapter extends PagerAdapter {
     int images[]={
             R.drawable.leb1,
             R.drawable.leb9,
-            R.drawable.leb3,
             R.drawable.leb6,
+            R.drawable.leb3,
 
     };
-    int headings[]={
+    /*int headings[]={
             R.string.titleIntro,
             R.string.titleIntro,
             R.string.titleIntro,
@@ -33,14 +33,15 @@ public class SliderAdapter extends PagerAdapter {
             R.string.name,
             R.string.name,
             R.string.name,
-    };
+    };*/
+
     //on which activity to show this data
     public SliderAdapter(Context context) {
         this.context = context;
     }
     @Override
     public int getCount() {
-        return headings.length;
+        return images.length;
     }
 
     @Override
@@ -59,12 +60,12 @@ public class SliderAdapter extends PagerAdapter {
 
         //Hooks
         ImageView imageView=view.findViewById(R.id.slider_image);
-        TextView texthView=view.findViewById(R.id.Slider_heading);
-        TextView textshView=view.findViewById(R.id.Slider_subheading);
+       // TextView texthView=view.findViewById(R.id.Slider_heading);
+       // TextView textshView=view.findViewById(R.id.Slider_subheading);
 
         imageView.setImageResource(images[position]);
-        texthView.setText(headings[position]);
-        textshView.setText(subheading[position]);
+        // texthView.setText(headings[position]);
+        //textshView.setText(subheading[position]);
 
         container.addView(view);
 

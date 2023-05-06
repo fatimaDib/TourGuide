@@ -17,34 +17,4 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/leb1" />
 
-    <TextView
-        android:id="@+id/Slider_heading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/alfa_slab_one"
-        android:gravity="center"
-        android:text="@string/titleIntro"
-        android:textAlignment="center"
-        android:textColor="#C3D3ED"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/Slider_subheading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/baloo_thambi"
-        android:text="@string/name"
-        android:textColor="#CA6259"
-        android:textSize="60sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Slider_heading" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

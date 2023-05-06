@@ -15,6 +15,17 @@
         tools:layout_editor_absoluteY="-158dp" />
 -->
 
+  <androidx.viewpager.widget.ViewPager
+      android:id="@+id/slider"
+      android:layout_width="416dp"
+      android:layout_height="658dp"
+      app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+  </androidx.viewpager.widget.ViewPager>
+
   <RelativeLayout
       android:id="@+id/relativeLayout"
       android:layout_width="414dp"
@@ -28,7 +39,7 @@
         android:id="@+id/signIn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#1B72B8"
+        android:backgroundTint="#287319"
         android:text="Start By Signing In" />
 
     <LinearLayout
@@ -52,16 +63,5 @@
 
 
   </RelativeLayout>
-
-  <androidx.viewpager.widget.ViewPager
-      android:id="@+id/slider"
-      android:layout_width="416dp"
-      android:layout_height="658dp"
-      app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent">
-
-  </androidx.viewpager.widget.ViewPager>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

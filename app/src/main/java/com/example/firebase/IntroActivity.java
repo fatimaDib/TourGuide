@@ -26,7 +26,9 @@ public class IntroActivity extends AppCompatActivity {
         sliderAdapter=new SliderAdapter(this);
         viewPager.setAdapter(sliderAdapter);
 
+    }
 
+    private void dots(){
 
     }
 }
